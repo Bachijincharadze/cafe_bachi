@@ -1,0 +1,667 @@
+div{
+    margin: 10px;
+    height: 80px;
+}
+
+body{
+    background-color: rgb(197, 189, 189);
+    background-image: url(img/pexels-scottwebb-2530586.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headerrr{
+    border-radius: 1%;
+    height: 90px;
+    background-color: rgb(36, 37, 34);
+    opacity: 0.95;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+
+.navbar li{
+    list-style-type: none; 
+    float: left;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(156, 156, 131);
+    display: flex;
+    transition: all 0.5s ease;
+    letter-spacing: 1px;
+    animation: animation 2.0s ease;
+}
+
+@keyframes animation {
+    0%{
+        letter-spacing: 6px;
+    }
+
+    100%{
+        letter-spacing: 1px;
+    }
+}
+
+a:hover{
+    transform: scale(1.0); 
+    color: white;
+    height: 30px;
+}
+
+
+
+#mainnn{
+    border-radius: 5%;
+    margin-left: 990px;
+    margin-top: 20px;
+    opacity: 0.95;
+    width: 500px;
+    height: 480px;
+    background-color: rgb(71, 72, 62);
+    background-position: center;
+}
+
+.coffe{
+    margin-top: -15px;
+    margin-left: 150px;
+}
+
+.h1-1{
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+#footerrr{
+    border-radius: 1%;
+    margin-top: 20px;
+    height: 90px;
+    opacity: 0.95;
+    background-color: rgb(36, 37, 34);
+}
+
+.tel{
+    color: rgb(156, 156, 131);
+    margin-left: 10px;
+}
+
+.mail{
+    color: rgb(156, 156, 131);
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+#main-c{
+    background-color: rgb(108, 110, 95);
+    margin-left: 710px;
+    margin-top: 20px;
+    width:800px;
+    opacity: 0.99;
+    border-radius: 5%;
+    margin-right: 150px;
+    height: 650px;  
+}
+
+.allcontact{
+    opacity: 1;
+    animation: contact 1.0s ease;
+
+}
+
+@keyframes contact {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#fname{
+    margin-top: 50px;
+    margin-left: 77px;
+    width: 650px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+#mail{
+    margin-top: 30px;
+    margin-left: 77px;
+    width: 650px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+#message{
+    margin-top: 30px;
+    margin-left: 77px;
+    width: 650px;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+}
+
+
+h1{
+    opacity: 1;
+    margin-left: 290px;
+    color: rgb(48, 47, 38);
+    font-size: 50px;
+    animation: h1 1.0s ease;
+}
+
+@keyframes h1 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+
+button{
+  background-color: rgb(46, 48, 39);
+  color: rgb(239, 239, 239);
+  margin-left: 78px;
+  width: 650px;
+  font-size: 30px;
+  margin-top: 50px;
+  height: 60px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.0);
+    background-color: rgb(100, 99, 93);
+}
+
+
+
+
+
+
+body {
+    background-image: url(img/pexels-scottwebb-2530586.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+#headert{
+    background-color: rgb(36, 30, 27);
+    height: 80px;
+    margin-top: 0px;
+    width: 1538px;
+    margin-left: -20px;
+}
+
+.h3-1{
+    margin-top: -5px;
+}
+
+.h3-2{
+    margin-top: -5px;
+}
+
+
+.h3-3{
+    margin-top: -5px;
+}
+
+
+.h3-4{
+    margin-top: -5px;
+}
+
+
+.serviceh2{
+    letter-spacing: 2px;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 32px;
+    padding-top: -30px;
+    margin-left: 705px;
+}
+
+
+.services {
+    height: 500px;
+    border: none;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item-1{
+    margin-top: 10px;
+    width: 45%; 
+    background-color: #a7a296;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left; 
+    animation: item-1 1.0s ease;
+}
+
+@keyframes item-1 {
+    0%{
+        margin-top: -50px;
+    }
+    100%{
+        margin-top: 10px;
+    }
+}
+
+.service-item-2{
+    margin-top: 10px;
+    width: 45%; 
+    background-color: #a7a296;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left; 
+    animation: item-2 1.0s ease;
+}
+
+@keyframes item-2 {
+    0%{
+        margin-top: -50px;
+    }
+    100%{
+        margin-top: 10px;
+    }
+    
+}
+
+.service-item-3{
+    margin-top: 10px;
+    width: 45%; 
+    background-color: #a7a296;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left; 
+    animation: item-3 1.0s ease;
+}
+
+@keyframes item-3 {
+    0%{
+        margin-top: -50px;
+    }
+    100%{
+        margin-top: 10px;
+    }
+}
+
+.service-item-4{
+    margin-top: 10px;
+    width: 45%; 
+    background-color: #a7a296;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left; 
+    animation: item-4 1.0s ease;
+}
+
+@keyframes item-4 {
+    0%{
+        margin-top: -50px;
+    }
+    100%{
+        margin-top: 10px;
+    }
+}
+
+
+
+.service-item-1 p {
+    margin-top: -20px;
+    font-size: 16px;
+    margin-left: -1px;
+    color: #3d3636;
+    line-height: 1.5;
+}
+
+.service-item-2 p {
+    margin-top: -20px;
+    font-size: 16px;
+    margin-left: -1px;
+    color: #3d3636;
+    line-height: 1.5;
+}
+
+.service-item-3 p {
+    margin-top: -20px;
+    font-size: 16px;
+    margin-left: -1px;
+    color: #3d3636;
+    line-height: 1.5;
+}
+
+.service-item-4 p {
+    margin-top: -20px;
+    font-size: 16px;
+    margin-left: -1px;
+    color: #3d3636;
+    line-height: 1.5;
+}
+
+#footeeer{
+    background-color: rgb(36, 30, 27);
+    margin-top: 530px;
+    height: 80px;
+    width: 1541.5px;
+    margin-left: -15.2px;
+}
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(51, 47, 33);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.div{
+    margin: 10px;
+    height: 80px;
+}
+
+#header123{
+    margin-left: -18px;
+    width: 1545px;
+    margin-top: -10px;
+    background-color: rgb(34, 31, 20);
+    height: 80px;
+    border-radius: 1%;
+    opacity: 1;
+}
+
+#footer5353{
+    margin-left: -18px;
+    width: 1563.9px;
+    margin-top: 70px;
+    background-color: rgb(34, 31, 20);
+    height: 80px;
+    border-radius: 1%;
+    opacity: 1;
+}
+
+#bottom-5{
+    margin-left: -18px;
+    width: 1563.9px;
+    margin-top: 180px;
+    background-color: rgb(34, 31, 20);
+    height: 80px;
+    border-radius: 1%;
+    opacity: 1;
+}
+
+h6{
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: white;
+    margin-left: 710px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+#main123{
+    margin-left: -18px;
+    width: 1564px;
+    margin-top: -60px;
+    background-color: rgb(51, 47, 33);
+    height: 600px;
+}
+
+.sandwich{
+    margin-left: 150px;
+}
+
+
+.coffe{
+    color: white;
+}
+
+
+.menuall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin-top: 50px;
+    
+}
+
+
+.desserts{
+    color: white;
+    margin-left: 460px;
+}
+
+.tea{
+    color: white;
+    margin-left: 460px;
+}
+
+
+.img-cup{
+    margin-left: 150px;
+    margin-top: -5px;
+}
+
+.img-dessert{
+    margin-left: 500px;
+    margin-top: 110px;
+}  
+
+.tea-img{
+    margin-left: 1500px;
+    margin-top:  150px;
+    padding-top: 225px;
+    
+}
+
+hr{
+    color: rgb(153, 151, 132);
+    margin-top:-220px;
+    width: 1450px;
+    background-color: rgb(224, 224, 224);
+}
+
+h5{
+    margin-left: 200px;
+    margin-top: -5px;
+    color: white;
+}
+
+.coffe-1{
+    margin-top: -130px;
+    margin-left: 120px;
+}
+
+.coffe-img{
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.am{
+    margin-top: 75px;
+}
+
+.dessert-1{
+   margin-left: 670px;
+   margin-top: 55.5px;
+}
+
+.dessert-img{
+    margin-left: 200px;
+    margin-top: -220px;
+}
+
+.tea-1{
+    margin-left: 1160px;
+    margin-top: -235px;
+}
+
+.tea-img{
+    margin-top: -340px;
+    margin-left: 1200px;
+}
+
+.mat{
+    margin-top: 180px;
+}
+
+
+.sandwich-1{
+    margin-left: 120px;
+    margin-top: -360px;
+}
+
+
+.salad-img{
+    margin-left: 700px;
+    margin-top: -110px;
+}
+
+.salad-1{
+   margin-left: 670px;
+   margin-top: -70px;
+}
+
+
+.breakfast-1{
+    margin-left: 1160px;
+    margin-top: -60px;
+}
+
+.breakfast-img{
+    margin-left: 1200px;
+    margin-top: -120px;
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(197, 189, 189);
+    background-image: url(img/pexels-scottwebb-2530586.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header321{
+    background-color: rgb(36, 30, 27);
+    height: 80px;
+    opacity: 0.95;
+}
+
+#Main321{
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #474538;
+    opacity: 0.95;
+    border-radius: 3%;
+}
+
+#Main32{
+    width: 450px;
+    height: 300px;
+    margin-left:100px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #474538;
+    opacity: 0.95;
+    border-radius: 3%;
+}
+
+.ppp{
+    font-size: 36px;
+    padding-top: -5px;
+    margin-left: -5px;
+}
+
+.aboutus-1{
+    display: flex;
+    text-align: center;
+}
+
+.ppp-2{
+    font-size: 36px;
+    padding-top: -5px;
+    margin-left: -5px;
+}
+
+.main21{
+    width: 450px;
+    height: 300px;
+    margin-left:100px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #474538;
+    opacity: 0.95;
+    border-radius: 3%;
+}
+
+.ppp-3{
+    font-size: 36px;
+    padding-top: -5px;
+    margin-left: -5px;
+}
+
+.h1-1-1{
+    color: white;
+    margin-left: 670px;
+    padding-top: 10px;
+}
+
+#footer-about{
+    background-color: rgb(36, 30, 27);
+    height: 80px;
+    opacity: 0.95;
+    margin-top: 420px;
+}
